@@ -1,6 +1,6 @@
 function example() {
-  const unused = 1
-  console.log("Hello, world")
+  const greeting = 'Hello, world';
+  return greeting;
 }
 
-module.exports = example
+module.exports = example;
